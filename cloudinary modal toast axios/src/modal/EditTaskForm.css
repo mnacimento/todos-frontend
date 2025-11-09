@@ -1,0 +1,59 @@
+.task-form {
+  display: grid;
+  gap: 12px;
+}
+
+.task-label {
+  display: block;
+}
+
+.task-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.task-input:focus {
+  border-color: #4d97fa;
+  outline: none;
+}
+
+.error-border {
+  border-color: #e53935;
+}
+
+.error-text {
+  color: #e53935;
+  font-size: 0.85rem;
+}
+
+.checkbox-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.button-row {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.button-row button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.button-row button[type="submit"] {
+  background-color: #4d97fa;
+  color: white;
+}
+
+.button-row button[type="button"] {
+  background-color: #ccc;
+}

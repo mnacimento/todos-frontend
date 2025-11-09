@@ -1,0 +1,28 @@
+{
+    "greeting": "Hola!",
+    "welcome_user": "Bienvenido, {{name}}!",
+    "form": {
+        "es": "Español",
+        "en": "Ingles",
+        "title": "Registro de persona",
+        "name": "Nombre",
+        "email": "Correo",
+        "password": "Contraseña",
+        "confirmPassword": "Confirmar contraseña",
+        "birthDate": "Fecha de nacimiento",
+        "country": "País",
+        "selectCountry": "Seleccione un país",
+        "department": "Departamento",
+        "selectDepartment": "Seleccione un departamento",
+        "terms": "Aceptar términos y condiciones",
+        "submit": "Enviar"
+    },
+    "validation": {
+        "required": "Este campo es requerido",
+        "email": "Formato de correo inválido",
+        "min": "Debe tener al menos {{count}} caracteres",
+        "match": "Los valores no coinciden",
+        "age": "Debe ser mayor de edad",
+        "selectCountry": "Seleccionar un país"
+    }
+}

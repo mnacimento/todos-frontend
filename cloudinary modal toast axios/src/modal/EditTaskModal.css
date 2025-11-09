@@ -1,0 +1,32 @@
+/* Fondo oscuro semitransparente detrás del modal */
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Caja del modal centrada y con bordes redondeados */
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 520px;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  outline: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  animation: slideIn 0.25s ease;
+}
+
+/* Animación suave de entrada */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
