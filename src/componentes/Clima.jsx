@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -22,14 +22,9 @@ ChartJS.register(
 
 const Clima = () => {
 
-    const navigate = useNavigate();
     const [pronostico, setPronostico] = useState([])
 
     useEffect(() => {
-        console.log(localStorage.getItem("usuario"));
-        if (localStorage.getItem("usuario") === null) {
-            navigate("/")
-        }
         fetch("https://api.openweathermap.org/data/2.5/forecast?lat=-34&lon=-56&appid=764a496e4b4fb2978c4ba1ba2021a336&units=metric")
             .then(r => r.json())
             .then(datos => {
