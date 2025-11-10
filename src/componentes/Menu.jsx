@@ -55,7 +55,7 @@ const Menu = () => {
               <button
                 onClick={handleLogout}
                 className="btn btn-outline-light ms-3"
-                style={{ fontWeight: '600' }}
+                style={{ fontWeight: '600', backgroundColor: '#dc3535' }}
               >
                 Cerrar sesión
               </button>
